@@ -1,0 +1,14 @@
+# Secrets — never upload
+.env
+
+# The venv box — everyone rebuilds their own from requirements.txt
+.venv/
+
+# Generated files — rebuilt by our scripts, no need to store them
+ecommerce.db
+schema.json
+data/vectorstore/
+
+# Python junk
+__pycache__/
+*.pyc

@@ -1,0 +1,14 @@
+# --- The exact versions this tutorial was written for ---
+# Pinning versions (==) means everyone installs the SAME code, so it behaves the
+# same for every student. This is how teams avoid "works on my machine" bugs.
+langchain==0.3.7
+langchain-openai==0.2.8
+langchain-community==0.3.7
+openai==1.54.4
+httpx==0.27.2          # pin < 0.28 on purpose: openai 1.54.4 crashes with newer httpx
+streamlit==1.40.1
+python-dotenv==1.0.1
+Faker==30.8.2
+
+# Session 5 adds the vector-store libraries (langchain-chroma, chromadb).
+# We install those next session so today's setup stays quick and toolchain-free.
